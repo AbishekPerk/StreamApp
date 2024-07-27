@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  font-family: sans-serif;
+}
+.container{
+  width: 100%;
+  min-height: 100vh;
+  background: #ededee;
+  transition: 0.5s;
+}
+.container.dark{
+  background: #222;
+}
+@media(max-width: 425px){
+   .container{
+    width: 375px;
+   }
+}
+@media(max-width: 375px){
+  .container{
+   width: 200px;
+  }
+}
+@media(max-width: 768px){
+  .container{
+   width: 765px;
+  }
+}
