@@ -10,10 +10,22 @@
     width: 300px;
     height: 40px;
     margin-left: 20px;
+    background: #05a608;
 }
-.Navbar .toggle-icon{
-    margin-right: 20px;
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-}
+@media(max-width: 425px){
+    .Navbar{
+     width: 768px;
+    }
+ }
+ @media(max-width: 375px){
+   .Navbar{
+    width: 768px;
+   }
+ }
+ @media(max-width: 768px){
+    .Navbar{
+     width: 768px;
+    }
+  }
+ 
+ 

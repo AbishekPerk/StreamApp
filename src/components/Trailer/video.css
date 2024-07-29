@@ -1,8 +1,9 @@
 .trailer{
+     margin-top: 20px;
      margin-left: 20px;
      margin-bottom: 30px;
      width: 750px;
-     height: 500px;
+     height: 450px;
 }
 .block1{
      background: #3c3c3c;
@@ -32,35 +33,100 @@
 }
 @media(max-width: 1024px){
      .trailer{
-       
-        margin-left: 50px;
-        margin-bottom: 40px;
+        margin-left: 60px;
+        margin-bottom: 5px;
         width: 700px;
-        height: 300px;
+        height: 450px;
+     }
+     .block2{
+           display: block;
+          
      }
    }
 @media(max-width: 768px){
   .trailer{
-     margin-left: 10px;
+     margin-left: 30px;
      margin-bottom: 5px;
      width: 700px;
-     height: 500px;
+     height: 400px;
+  }
+  .block1{
+     width: 768px;
   }
   .block2{
         display: block;
        
   }
 }
-@media(min-width: 375px){
+
+@media(max-width: 425px){
      .trailer{
-          
-          margin-left: 25px;
-          width: 700px;
-          height: 500px;
+        margin-left: 30px;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        width: 700px;
+        height: 500px;
      }
-}
-@media(min-width: 425px){
+     .block1{
+           width: 768px;
+           
+     }
+   }
+@media(max-width: 375px){
      .trailer{
-          margin-right: 5px;
+        margin-left: 30px;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        width: 700px;
+        height: 500px;
      }
+     .block1{
+           width: 768px;
+           
+     }
+   }
+
+.col1{
+     display: flex;
+     margin: 0px;
+     background: #2b2a2a;
 }
+.img{
+     margin: 10px;
+     height: 150px;
+     width: 250px;
+     margin-left: 30px;
+}
+.container1{
+    background: #2b2a2a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+li{
+     list-style: none;
+ }
+.head{
+   color: #fdf8f8;
+   margin-left: 30px;
+   
+}
+.content{
+     color: #fdf8f8;
+     padding: 50px;
+     padding-top: 10px;
+}
+.head2{
+     color: #fdf8f8;
+     display: flex;
+     margin-left: 200px;
+}
+.header{
+     display: flex;
+}
+@media(max-width: 768px){
+     .container1{
+        width: 768px;
+     }
+     
+   }
+
