@@ -6,7 +6,7 @@ import './index.css'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode basename='/StreamApp/'>
+  <React.StrictMode>
     <App />
   </React.StrictMode>,
   
