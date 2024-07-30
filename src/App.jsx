@@ -26,7 +26,7 @@ function App() {
            <Route index element={<Home />}  />
 
            <Route path="/Home" element={<Home />}/>
-           <Route path='/episode1' element={<Episode1/>}/>
+           <Route  basename={import.meta.env.BASE_URL} path='/episode1' element={<Episode1/>}/>
            <Route path='/episode2' element={<Episode2/>}/>
            <Route path='/episode3' element={<Episode3/>}/>
            <Route path='/episode4' element={<Episode4/>}/>
